@@ -51,7 +51,6 @@ export default class ChatBox extends Component {
       const { messages } = this.state;
       messages.push(message);
       this.setState({ messages });
-      //this.refs.messagesList.addMessage(message);
     }
   }
 
